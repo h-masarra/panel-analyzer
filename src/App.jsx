@@ -1,8 +1,13 @@
-import React from 'react';
-import Home from './pages/Home';
+import React from "react";
+import Upload from "@/components/Upload";
 
 function App() {
-  return <Home />;
+  return (
+    <div className="App">
+      <h1>Panel Analyzer</h1>
+      <Upload />
+    </div>
+  );
 }
 
 export default App;
